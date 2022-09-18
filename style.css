@@ -61,16 +61,6 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: .5rem auto;
-}
-
-small {
-  font-size: 1.6rem;
-  margin: 1rem auto;
-}
 .pokemon .img-container {
   background-color: rgb(255, 255, 255, 0.6);
   background: url(https://cdn.pixabay.com/photo/2020/07/24/03/12/gengar-5432819_1280.png) center/cover;
@@ -83,4 +73,21 @@ small {
 .pokemon .img-container img {
   max-width: 90%;
   margin-top: 2rem;
+}
+
+.pokemon .info {
+  margin-top: 2rem;
+}
+
+.pokemon .info .number {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+
+.pokemon .info .name {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 .7rem;
+  letter-spacing: .1rem;
 }
