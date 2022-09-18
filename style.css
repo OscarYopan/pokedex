@@ -1,21 +1,24 @@
-/*Reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*Default*/
 html{
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
 
 body{
+  background-color: #505050;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.pokemon {
+  background-color: aquamarine;
 }
