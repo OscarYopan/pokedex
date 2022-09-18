@@ -53,15 +53,31 @@ h1 {
 }
 
 .pokemon {
-  background-color: #7fffd4;
-  border-radius: ;
+  background-color: var(--logo-color1);
+  border-radius: 1rem;
+  color: white;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
 
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .5rem auto;
+}
+
+small {
+  font-size: 1.6rem;
+  margin: 1rem auto;
+}
 .pokemon .img-container {
   background-color: rgb(255, 255, 255, 0.6);
+  background: url(https://cdn.pixabay.com/photo/2020/07/24/03/12/gengar-5432819_1280.png) center/cover;
   border-radius: 50%;
   height: 12rem;
   width: 12rem;
+  margin: .5rem;
 }
 
 .pokemon .img-container img {
