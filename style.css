@@ -43,6 +43,28 @@ h1 {
   letter-spacing: .3rem;
 }
 
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
 .pokemon {
-  background-color: aquamarine;
+  background-color: #7fffd4;
+  border-radius: ;
+}
+
+.pokemon .img-container {
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.pokemon .img-container img {
+  max-width: 90%;
+  margin-top: 2rem;
 }
