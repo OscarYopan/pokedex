@@ -53,17 +53,15 @@ h1 {
 }
 
 .pokemon {
-  background-color: var(--logo-color1);
   border-radius: 1rem;
-  color: white;
+  color: black;
   margin: 1rem;
   padding: 2rem;
   text-align: center;
 }
 
 .pokemon .img-container {
-  background-color: rgb(255, 255, 255, 0.6);
-  background: url(https://cdn.pixabay.com/photo/2020/07/24/03/12/gengar-5432819_1280.png) center/cover;
+  background-color: white;
   border-radius: 50%;
   height: 12rem;
   width: 12rem;
