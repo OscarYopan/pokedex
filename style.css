@@ -21,6 +21,7 @@ h1 {
   font-size: 5rem;
   color: #D5A100;
   letter-spacing: .3rem;
+  margin: 2rem auto 4rem auto;
 }
 
 .poke-container {
