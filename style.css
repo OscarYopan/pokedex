@@ -4,26 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --logo-color1: #0A285F;
-  --logo-color2: #0075BE;
-  --logo-color3: #D5A100;
-  --logo-color4: #FFCC00;
-  --poke-ball-color1:#FB1B1B;
-  --poke-ball-color2:#000000 ;
-  --poke-ball-color3:#DFDFDF ;
-  --water-pokemon: #5283c5;
-  --ground-pokemon: #b4ac73;
-  --grass-color: #202616;
-  --fire-color: #312010;
-
-  /*
-  colors:
-  - https://www.onlinepalette.com/pokemon/
-  - https://pokepalettes.com/
-  */
-}
-
 html{
   font-family: 'Lato', sans-serif;
   font-size: 62.5%;
@@ -39,7 +19,7 @@ body{
 
 h1 {
   font-size: 5rem;
-  color: var(--logo-color3);
+  color: #D5A100;
   letter-spacing: .3rem;
 }
 
@@ -58,6 +38,11 @@ h1 {
   margin: 1rem;
   padding: 2rem;
   text-align: center;
+  cursor: pointer;
+}
+
+.pokemon:hover {
+  transform: scale(1.1);
 }
 
 .pokemon .img-container {
@@ -88,4 +73,8 @@ h1 {
   font-size: 1.8rem;
   margin: 1.5rem 0 .7rem;
   letter-spacing: .1rem;
+}
+
+.pokemon .info .type {
+  font-size: 1.4rem;
 }
