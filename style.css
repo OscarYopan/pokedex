@@ -10,13 +10,15 @@ html{
   --color3: #F2A341;
   --color4: #F27141;
   --color5: #BF1304;
+  --color6: #05DBF2;
+  --color7: #F29B88;
 
   font-family: 'Lato', sans-serif;
   font-size: 62.5%;
 }
 
 body{
-  background-color: #505050;
+  background-color: var(--color6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,9 +27,9 @@ body{
 
 h1 {
   font-size: 5rem;
-  color: #D5A100;
+  color: var(--color4);
   letter-spacing: .3rem;
-  margin: 2rem auto 4rem auto;
+  margin: 2rem auto;
 }
 
 .poke-container {
