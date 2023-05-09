@@ -18,11 +18,12 @@ html{
 }
 
 body{
-  background-color: var(--color6);
+  background-color: var(--color7);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 h1 {
@@ -86,4 +87,8 @@ h1 {
 
 .pokemon .info .type {
   font-size: 1.4rem;
+}
+
+.up {
+
 }
