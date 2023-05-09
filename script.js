@@ -30,7 +30,7 @@ const getPokemon = async id => {
   const res = await fetch(url)
   const data = await res.json()
   createPokemonCard(data)
-  console.log(data);
+  // console.log(data)
 }
 
 const createPokemonCard = pokemon => {
@@ -59,3 +59,17 @@ const createPokemonCard = pokemon => {
 }
 
 fetchPokemons()
+
+//-------go to top Button
+
+const upButton = document.querySelector('.up')
+
+window.onscroll = () => {
+  console.log(scrollY)
+  if (scrollY > 200) {
+    upButton.classList.remove('close')
+  } else {
+    upButton.classList.add('close')
+    console.log('Menor')
+  }
+}

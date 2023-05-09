@@ -90,5 +90,36 @@ h1 {
 }
 
 .up {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  background-color: var(--color6);
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
 
+.up a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.up:hover {
+  transform: scale(1.2);
+}
+
+.up:active {
+  background-color: var(--color1);
+}
+
+.close {
+  opacity: 0;
+  z-index: -5;
 }
