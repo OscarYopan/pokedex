@@ -65,11 +65,9 @@ fetchPokemons()
 const upButton = document.querySelector('.up')
 
 window.onscroll = () => {
-  console.log(scrollY)
-  if (scrollY > 200) {
+  if (scrollY > 400) {
     upButton.classList.remove('close')
   } else {
     upButton.classList.add('close')
-    console.log('Menor')
   }
 }
